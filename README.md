@@ -5,12 +5,19 @@
 ![STATA](https://img.shields.io/badge/STATA-Probit%20Modelling-1857C5)
 ![SPSS](https://img.shields.io/badge/SPSS-Data%20Consolidation-CC292B)
 
-## 1. The Commercial Context & Problem Statement
+## The Commercial Context & Problem Statement
 In modern societies, the traditional measurement of well-being has focused exclusively on income, ignoring a fundamental resource: time. In high-pressure labour environments (such as Chile, averaging 1,988 annual working hours versus the OECD average of 1,766), time scarcity diminishes productivity, learning, and overall well-being. 
 
-The objective of this econometric model was to quantitatively identify the demographic and socio-economic characteristics of individuals most likely to suffer from "time poverty"—defined as the inability to allocate hours to rest or personal development due to high burdens of paid work, unpaid domestic labour, and commuting.
+The objective of this analysis and econometric model was to quantitatively identify the demographic and socio-economic characteristics of individuals most likely to suffer from "Time Poverty"—defined as the inability to allocate hours to rest or personal development due to high burdens of paid work, unpaid domestic labour, and commuting.
 
-## 2. Methodology & Data Strategy
+## Methodology & Data Strategy
+The development of the predictive model followed a rigorous two-stage analytical approach:
+
+* **Data Scale:** Modelling conducted on a representative urban sample of 9.5 million individuals (consolidating approximately 15,900 survey records).
+* **Exploratory Data Analysis (EDA) & Theoretical Grounding:** Executed a comprehensive analysis of time-allocation structures prior to modelling. Leveraged advanced data visualisation (including dual-axis charts) and covariance matrices to map critical socio-demographic correlations—specifically isolating the structural overlap between education and socio-economic status—ensuring statistically robust feature selection.
+* * **Feature Engineering & Data Cleansing:** Created the "Global Workload" metric, amalgamating hours of formal employment, unpaid domestic work, dependent care, and commuting times. Mitigated data volatility inherent in self-reported diaries by applying Tukey’s Method (1.5x IQR) to systematically identify and treat statistical outliers, ensuring robustness when establishing the Time Poverty thresholds.
+* **Statistical Modelling:** Developed a binary response regression model (Probit) to isolate and measure the marginal effect of variables such as gender, age, education, household configuration (presence of infants/elderly), and income level on the probability of being time-poor.
+
 To develop this predictive model, I led the analysis of the National Time Use Survey (ENUT 2015):
 * **Data Scale:** Modelling conducted on a representative urban sample of 9.5 million individuals (consolidating approximately 15,900 survey records).
 * **Feature Engineering:** Created the "Global Workload" metric, amalgamating hours of formal employment, unpaid domestic work, dependent care, and commuting times.
