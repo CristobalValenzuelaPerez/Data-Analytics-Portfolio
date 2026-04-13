@@ -1,4 +1,4 @@
-# Portfolio Project 1: Demographic & Socio-Economic Data Modelling
+# Demographic & Socio-Economic Data Modelling
 **The Impact of Time Poverty: A Quantitative Analysis of Demographic Determinants in Urban Populations**
 
 ![Data Analytics](https://img.shields.io/badge/Data%20Analytics-Econometrics-blue)
@@ -33,9 +33,3 @@ The econometric model yielded statistically significant findings with high comme
 
 ## 4. Technical Implementation Note
 The original raw data consolidation and statistical modelling were executed using **STATA** and **SPSS**. While the legacy `.do` scripts are archived, the methodology strictly followed a Probit Regression approach, ensuring robust treatment of heteroscedasticity and categorical variables for large-scale demographic datasets.
-
-## 5. Real-World Application (PropTech & Real Estate Perspective)
-The methodologies applied in this research are directly translatable to **Real Estate Market Research and PropTech innovation**:
-* **Build-to-Rent (BTR) & Amenities Strategy:** Understanding "time poverty" validates the commercial necessity of integrating convenience services (concierge, crèche facilities, co-working spaces, payment automation) within urban residential projects, effectively increasing tenant retention by returning time to overburdened residents.
-* **Urban Planning & Location Feasibility:** The critical impact of commuting times on overall well-being provides economic justification for property investment strategies focused on Transit-Oriented Developments (TOD) or the "15-minute city" model.
-* **Tenant Profiling & Yield Optimisation:** Demonstrates advanced capacity to segment demographic profiles and forecast tenant behaviours based on household structures and education levels, thereby optimising commercial and operational strategies.
