@@ -38,10 +38,11 @@ The econometric model yielded statistically significant findings with high comme
 | :--- | :---: |
 | **The "Double Shift" Reality:** <br> 12.84% of the urban population is time-poor during the working week. Women have a significantly higher probability of experiencing this condition (representing 65.19% of the total affected), driven by the asymmetrical burden of unpaid care work. | <img src="https://github.com/user-attachments/assets/c73724fe-0aaa-4cae-96fc-099ec35afdad" width="300"> |
 | .<br><br>**Income vs. Time Paradox:** Contrary to traditional perceptions, time poverty cuts across all socio-economic levels. In fact, higher levels of education and active labour market participation *increase* the probability of being time-poor on weekdays due to the intensity of working hours.<br><br>. | <img src="https://github.com/user-attachments/assets/52bbf6e7-8f22-44a9-9073-1f15625a214a" width="2000"> |
-| **The Impact of Commuting & Care:** The inclusion of commuting times to the workplace drastically increases the marginal propensity for time scarcity. | <img src="https://github.com/user-attachments/assets/04948809-b6f6-47cc-9c1f-48643d10ff03" width="350"> |
+| **The Impact of Commuting & Care:** The inclusion of commuting times to the workplace drastically increases the marginal propensity for time scarcity. | <img src="https://github.com/user-attachments/assets/65f2c1fc-412b-4af7-9799-869bdd62f40e" width="350"> |
 | **Unpaid Care & The General Production Boundary:** While dependents and children increase time poverty, elderly members decrease it at rates comparable to hiring domestic help. This reveals hidden value overlooked by traditional economics: seniors' unpaid caregiving enables others' market participation. Consequently, this vital non-market labor operates squarely within the General Production Boundary. | <img src="https://github.com/user-attachments/assets/ee0d099a-14ee-415d-925f-0ad3129e8168" width="295"> |
 |  |  | 
 
+![TP Commute Effect](https://github.com/user-attachments/assets/65f2c1fc-412b-4af7-9799-869bdd62f40e)
 
 ## Technical Implementation Note
 The original raw data consolidation and statistical modelling were executed using **STATA** and **SPSS**. While the legacy `.do` scripts are archived, the methodology strictly followed a Probit Regression approach, ensuring robust treatment of heteroscedasticity and categorical variables for large-scale demographic datasets.
