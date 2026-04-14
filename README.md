@@ -42,7 +42,6 @@ The econometric model yielded statistically significant findings with high comme
 | **Unpaid Care & The General Production Boundary:** While dependents and children increase time poverty, elderly members decrease it at rates comparable to hiring domestic help. This reveals hidden value overlooked by traditional economics: seniors' unpaid caregiving enables others' market participation. Consequently, this vital non-market labor operates squarely within the General Production Boundary. | <img src="https://github.com/user-attachments/assets/ee0d099a-14ee-415d-925f-0ad3129e8168" width="295"> |
 |  |  | 
 
-![TP Commute Effect](https://github.com/user-attachments/assets/65f2c1fc-412b-4af7-9799-869bdd62f40e)
 
 ## Technical Implementation Note
 The original raw data consolidation and statistical modelling were executed using **STATA** and **SPSS**. While the legacy `.do` scripts are archived, the methodology strictly followed a Probit Regression approach, ensuring robust treatment of heteroscedasticity and categorical variables for large-scale demographic datasets.
