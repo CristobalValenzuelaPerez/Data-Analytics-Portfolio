@@ -29,8 +29,6 @@ The development of the predictive model followed a rigorous two-stage analytical
 | <img src="https://github.com/user-attachments/assets/784a81ff-ec3b-4770-8fcd-dc91501159a8" width="275"> <img src="https://github.com/user-attachments/assets/fdaee3f0-680b-4489-9eb0-526431ec963a" width="280"> |
 
 * **Statistical Modelling:** Developed a binary response regression model (Probit) to isolate and measure the marginal effect of variables such as gender, age, education, household configuration (presence of infants/elderly), and income level on the probability of an individual falling below the established time poverty threshold.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9fccb73b-a6a1-4fe5-9d68-2198ea812b4c" width="295">
 </p>
 
 
@@ -45,5 +43,11 @@ The econometric model yielded statistically significant findings with high comme
 |  |  | 
 
 
-## 4. Technical Implementation Note
+## Technical Implementation Note
 The original raw data consolidation and statistical modelling were executed using **STATA** and **SPSS**. While the legacy `.do` scripts are archived, the methodology strictly followed a Probit Regression approach, ensuring robust treatment of heteroscedasticity and categorical variables for large-scale demographic datasets.
+
+## Resources & Documentation
+
+* **Full Research Paper:** [Download PDF Version](https://github.com/user-attachments/files/26713341/Tesis.El.Tiempo.como.Diension.Alternativa.para.la.Medicion.de.la.Pobreza.y.sus.Determinantes-Cristobal.Valenzuela.Perez-2017.1.pdf) — *Complete theoretical, methodological and econometric analysis (Spanish).*
+* **Defense Presentation:** [View Slides](https://github.com/user-attachments/files/26713824/ppt_Sv4.pptx) — *Key findings and visual summary used for academic defense.*
+* **Official University Publication:** [Link to University Repository](https://research.ebsco.com/c/d6h2ty/search/details/yft4d4srff?q=Pobreza%20tiempo)
